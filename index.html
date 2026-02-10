@@ -4,120 +4,190 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/index.css">
-    <title>Flexbox</title>
+    <title>Productly</title>
 </head>
-<title>Productly</title>
-<header><img src="/images/logo.svg"></header>
+<header class="header">
+  <img src="/images/logo.svg" alt="Productly" class="logo">
 
+  <nav class="nav">
+    <div class="nav__list">
+      <a href="#">Product</a>
+      <a href="#">Customers</a>
+      <a href="#">Pricing</a>
+      <a href="#">Resources</a>
+    </div>
+
+    <div class="nav__actions">
+      <button class="signin">Sign In</button>
+      <button class="signup">Sign Up</button>
+    </div>
+  </nav>
+</header>
 <body>
-<nav>
-    <a href="/product">Product</a>
-    <a href="/customers">Customers</a>
-    <a href="/pricing">Pricing</a>
-    <a href="/resources">Resources</a>
+<main>
+  <section class="section1">
+    <div class="section1__content">
+      <h1 class="headline">The Design Thinking superpowers</h1>
+
+      <p class="section1__text">
+        Tools, tutorials, design, and innovation experts, all in one place!
+        The most intuitive way to imagine your next user experience
+      </p>
+
+      <div class="section1__actions">
+        <button class="getstarted">Get started</button>
+        <a href="#" class="watchvideo">▶ Watch the Video</a>
+      </div>
+    </div>
+
+    <img src="/images/jump.svg" alt="Three people jumping" class="jump">
+  </section>
+
+  <section class="section2">
+    <h2 class="headline__secondary">We design tools to unveil your superpowers</h2>
+  
+
+        <div class="layout layout--features">
+            <div class="feature">
+            <div class="feature__icon feature__icon--purple"></div>
+            <div class="section2__header">First click tests</div>
+            <p class="feature__text">While most people enjoy casino gambling,</p>
+        </div>
+
+        <div class="feature">
+            <div class="feature__icon feature__icon--yellow"></div>
+            <div class="section2__header">Design surveys</div>
+            <p class="feature__text">Sports betting, lottery, and bingo playing for the fun.</p>
+        </div>
+
+        <div class="feature">
+            <div class="feature__icon feature__icon--red">♡</div>
+            <div class="section2__header">Preference tests</div>
+            <p class="feature__text">The Myspace page defines the individual.</p>
+        </div>
+
+        <div class="feature">
+            <div class="feature__icon feature__icon--blue">⌛</div>
+            <div class="section2__header">Five second tests</div>
+            <p class="feature__text">Personal choices and the overall personality of the person.</p>
+        </div>
+        </div>
+
+    <div class="centered">
+        <button class="getstarted">SIGN UP NOW</button>
+    </div>
+</section>
+
+<section class="section3">
+    <div class="section3__text--columnize">   
     
-    <button>Sign In</button>
-    <button>Sign Up</button>
-</nav>
-
-<div class="section1">
-    <text class="headline">The Design Thinking Superpowers</text>
-    <p><text>Tools, tutorials, design, and innovation experts, all in one place! The most intuitive way to imagine your next user experience</text></p>
-    <p><button>Get started</button> <a href="/video">Watch the video</a></p>
-    <img src="/images/jump.svg" class="jump">
-</div>
-
-<div>
-    <text>We design tools to unveil your superpowers</text>
-    <div>First click tests
-        While most people enjoy casino gambling.
-    </div>
-    <div>Design surveys
-        Sports betting, lottery, and bingo playing for the fun.
-    </div>
-    <div>Preference tests
-        The Myspace page defines the individual.
-    </div>
-    <div>Five second tests
-        Personal choices and the overall personality of the person.
-    </div>
-     <button>SIGN UP NOW</button>
-</div>
-
-<div>
-    <img src="images/teach.svg">
-    <text>Effortless Validation for</text>
-    
-    <h3>Design Professionals</h3>
-    
-    <text>The Myspace page defines the individual, his or her characteristics, traits, personal choices, and the overall personality of the person.
-
-        <p>Accessory makers</p>
+    <div class="section3__intro">
+        <p>Effortless Validation for</p>
+        <p class="headline__third">Design Professionals</p>
+        <p class="section3__text">The Myspace page defines the individual, his or her characteristics, traits, personal choices, and the overall personality of the person.</p>
         
-        <p>While most people enjoy casino gambling, sports betting, lottery, and bingo playing for the fun.</p>
-
-        <p>Alterationists</p>
-
-        <p>If you are looking for a new way to promote your business that won't cost you more money.</p>
-
-        <p>Custom Design designers</p>
-
-        <p>If you are looking for a new way to promote your business that won't cost you more money.</p>
-    </text>
-</div>
-
-<div>
-    <img src="images/learn.svg">
-    <text>Easier decision making for</text>
-    <h4>Product Managers</h4>
-    <p>The Myspace page defines the individual, his or her characteristics, traits, personal choices, and the overall personality of the person.</p>
-    <p><ul>
-        <li>Never worry about overpaying for your energy again</li>
-        <li>We will only switch you to energy companies that we trust and will treat you right.</li>
-        <li>We track the markets daily and know where the savings are.</li>    
-    </ul></p>
-</div>
-
-<div>
-    <img src="images/research.svg">
-    <text>Optimisation for</text>
-    <h3>Marketers</h3>
-    <text>
-        Few would argue that, despite the advancements of feminism over the past three decades, women still face a double standard when it comes to their behavior.
-
-        <p>Accessory makers</p>
-        <p>While most people enjoy casino gambling, sports betting, lottery, and bingo playing for the fun.</p>
-        <p>Alterationists</p>
-        <p>If you are looking for a new way to promote your business that won't cost you more money.</p>
-        <p>Custom Design designers</p>
-        <p>If you are looking for a new way to promote your business that won’t cost you more money.</p>
-    </text>
-</div>
-
-<footer>
-    <img src="images/Logo.svg">
-    <div>
-        <div>Quick Links</div>
-        <div>About Us</div>
-        <div>Blog</div>
-        <div>Contact</div>
-        <div>FAQ</div>
     </div>
-    <div>
-        <div>Legal Stuff</div>
-        <div>Disclaimer</div>
-        <div>Financing</div>
-        <div>Privacy Policy</div>
-        <div>Terms of Service</div>
+     
+    <div class="section3__textbox">
+        <p class="section3__header">Accessory makers</p>
+        <p>While most people enjoy casino gambling, sports betting, lottery, and bingo playing for the fun.</p>
     </div>
-    <div>
-        <text>Knowing you're always on the best energy deal</text>
-        <form>
-            <label for="tel">Enter your phone number</label>
-            <input type="tel" id="tel" name="tel">
-        </form>
-        <button>Sign Up Now</button>
+    <div class="section3__textbox">
+        <p class="section3__header">Alterationists</p>
+        <p>If you are looking for a new way to promote your business that won't cost you more money.</p>
+    </div>
+    <div class="section3__textbox">
+        <p class="section3__header">Custom Design designers</p>
+        <p>If you are looking for a new way to promote your business that won't cost you more money.</p>
+    </div>
+</div>
+   <img src="images/teach.svg" class="teach">    
+</section>
+
+<section class="section4">
+   <img src="images/learn.svg" class="learn">
+    <div>        
+        <div class="section4__intro">Easier decision making for
+        <div>
+            <p class="headline__fourth">Product Managers</p>
+            <div>The Myspace page defines the individual, his or her characteristics, traits, personal choices, and the overall personality of the person.
+            </div>
+        </div>
+        </div>
+        <div class="section4__textbox">
+            <div class="section4__text">
+                <ul>
+                    <li class="section__li">Never worry about overpaying for your energy again.</li>
+                    <li  class="section__li">We will only switch you to energy companies that we trust and will treat you right.</li>
+                    <li  class="section__li">We track the markets daily and know where the savings are.</li>
+            </ul>
+            </div>    
+        </div>
+    </div> 
+</section>
+
+<section class="section5">
+    <div class="section5__text">
+        <div class="section5__intro">
+            <p>Effortless Validation for</p>
+            <p class="headline__third">Design Professionals</p>
+            <p class="section5__text">The Myspace page defines the individual, his or her characteristics, traits, personal choices, and the overall personality of the person.</p>
+        </div>
+        <div class="section5__textbox">
+            <p class="section3__header">Accessory makers</p>
+            <p>While most people enjoy casino gambling, sports betting, lottery, and bingo playing for the fun.</p>
+        </div>
+        <div class="section5__textbox">
+            <p class="section3__header">Alterationists</p>
+            <p>If you are looking for a new way to promote your business that won't cost you more money.</p>
+        </div>
+        <div class="section5__textbox">
+            <p class="section3__header">Custom Design designers</p>
+            <p>If you are looking for a new way to promote your business that won't cost you more money.</p>
+        </div>
+    </div>
+   <img src="images/research.svg" class="research">    
+</section>
+<p><br><hr></p>
+<footer class="footer">
+    <div class="footer__inner">
+
+        <div class="footer__col footer__col--logo">
+            <img src="images/Logo.svg" alt="Productly logo" class="footer__logo">
+        </div>
+
+        <div class="footer_col footer__col--links">
+            <div class="footer__header">Quick Links</div>
+            <ul class="footer__list">
+                <li><a href="#" class="footer__link">About Us</a></li>
+                <li><a href="#" class="footer__link">Blog</a></li>
+                <li><a href="#" class="footer__link">Contact</a></li>
+                <li><a href="#" class="footer__link">FAQ</a></li>
+            </ul>
+        </div>
+
+        <div class="footer__col footer__col--legal">
+            <div class="footer__header">Legal Stuff</div>
+            <ul class="footer__list">
+                <li><a href="#" class="footer__link">Disclaimer</a></li>
+                <li><a href="#" class="footer__link">Financing</a></li>
+                <li><a href="#" class="footer__link">Privacy Policy</a></li>
+                <li><a href="#" class="footer__link">Terms of service</a></li>
+            </ul>
+        </div>
+
+        <div class="footer__col footer__col--cta">
+            <p class="footer__cta-text">
+                Knowing you're always on<br>
+                the best energy deal.
+            </p>
+
+            <input type="tel" class="footer__cta-input" placeholder="Enter your phone Number">
+
+            <button class="footer__cta-button">Sign Up Now</button>
+        </div>
     </div>
 </footer>
+</main>
 </body>
 </html>
